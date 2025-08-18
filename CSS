@@ -1,0 +1,116 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #0b0c10;
+  color: #eee;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  margin-bottom: 2rem;
+}
+.hero-buttons .btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  background: #00c896;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero-buttons .btn-alt {
+  background: #444;
+}
+
+/* TRUST BADGES */
+.badges {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  background: #111;
+}
+.badges img {
+  filter: grayscale(100%);
+  opacity: 0.8;
+  height: 50px;
+}
+
+/* PROCESS */
+.process {
+  padding: 3rem 2rem;
+}
+.process h2 {
+  margin-bottom: 2rem;
+  color: #00c896;
+}
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.step {
+  background: #1b1c22;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 3rem 2rem;
+}
+.contact .big-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #00c896;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+/* STICKY BAR */
+.sticky-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #111;
+  padding: 0.7rem 0;
+}
+.sticky-bar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* FOOTER */
+footer {
+  padding: 2rem;
+  background: #0a0a0a;
+  font-size: 0.8rem;
+}
+footer small {
+  display: block;
+  margin-top: 0.5rem;
+  opacity: 0.7;
+}
